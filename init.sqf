@@ -19,6 +19,7 @@ CHVD_maxObj = 5000; // Set maximimum object view distance (default: 12000)
 //Gear config
 WaitUntil {Sleep 1;Local Player};
 
+      _gear = [west, "SAPPER_WST"] call BIS_fnc_addRespawnInventory;
       _gear = [west, "CQB_WST"] call BIS_fnc_addRespawnInventory;
       _gear = [west, "Grenadier_WST"] call BIS_fnc_addRespawnInventory;
       _gear = [west, "LMG_WST"] call BIS_fnc_addRespawnInventory;
@@ -27,6 +28,7 @@ WaitUntil {Sleep 1;Local Player};
       _gear = [west, "aa_inf_WST"] call BIS_fnc_addRespawnInventory;
 	_gear = [west, "SpecOps_WST"] call BIS_fnc_addRespawnInventory;	
 	_gear = [west, "Marksman_WST"] call BIS_fnc_addRespawnInventory;
+      _gear = [east, "SAPPER_EST"] call BIS_fnc_addRespawnInventory;
       _gear = [east, "CQB_EST"] call BIS_fnc_addRespawnInventory;
       _gear = [east, "Grenadier_EST"] call BIS_fnc_addRespawnInventory;
       _gear = [east, "LMG_EST"] call BIS_fnc_addRespawnInventory;

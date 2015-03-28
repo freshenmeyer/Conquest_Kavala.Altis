@@ -15,7 +15,7 @@ player createDiaryRecord ["changelog",
 [
 "0.1",
 "
-<br/>[Initial release] - Welcome to Altis!
+<br/>[Initial release] - Welcome to conquest!
 "
 ]];
 
@@ -28,7 +28,8 @@ player createDiaryRecord ["credits",
 <br/><font size='16' color='#BBBBBB'>Using addons:</font>
 <br/>	* CH View Distance Script by Champ-1
 <br/>	* Simple Revive Script (SRS) by Monsoon
-<br/>	* 
+<br/>	* Fantastic free tutorials from guys like pickinthatbanjo
+<br/>	* Posts from a heap of people on armaholic.com
 <br/>
 <br/><font size='16'>Thanks to the generous content provided by the above!</font>
 "
@@ -39,24 +40,19 @@ player createDiaryRecord ["infos",
 [
 "Hints and Tips",
 "
-<br/><font size='18'>A3Conquest</font>
+<br/><font size='18'>Conquest</font>
 <br/>
-<br/>* Point 1
-<br/>* Point 2
-<br/>* Point 3
+<br/>* Get into the AO and capture the indicated sectors.
+<br/>* Captures will be rewarded by a vehicle.
+<br/>* Hold the majority of points to bleed the enemeys tickets.
 "
 ]];
 
 player createDiaryRecord ["infos",
 [
-"About A3Conquest",
+"About Conquest",
 "
 <br/>Conquest is a team versus team versus team point control mission. The objective is to hold the majority of the capture aeas and bleed the other factions tickets. This is a work in progress, please direct your reports to http://www.shizweak.es
-<br/>
-<br/>FAQ:
-<br/>
-<br/>Q. What am I supposed to do here?
-<br/>A. See the above description
 <br/>
 "
 ]];

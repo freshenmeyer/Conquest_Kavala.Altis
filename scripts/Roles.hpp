@@ -2,6 +2,66 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// BLUEFOR KIT ROLES /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Sapper
+class SAPPER_WST
+{
+    displayName = "Sapper"; 
+  icon = "\A3\ui_f\data\igui\cfg\cursors\iconrepairat_ca.paa";
+
+        weapons[] = 
+        {
+          "arifle_MXC_F",
+          "hgun_ACPC2_F",
+          "Binocular"
+        };
+
+  magazines[] = 
+        {
+          "smokeshell",
+          "smokeshell",
+          "smokeshell",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "30Rnd_65x39_caseless_mag",
+          "9Rnd_45ACP_Mag",
+          "9Rnd_45ACP_Mag",
+          "9Rnd_45ACP_Mag",
+          "9Rnd_45ACP_Mag",
+          "HandGrenade",
+          "HandGrenade",
+          "HandGrenade",
+          "DemoCharge_Remote_Mag",
+          "DemoCharge_Remote_Mag"
+        };
+     
+        items[] = 
+        {
+          "FirstAidKit",
+          "FirstAidKit",
+          "Toolkit"
+  };
+
+        linkedItems[] = 
+        {
+          "V_PlateCarrierIAGL_dgtl",
+          "H_HelmetB",
+          "acc_pointer_IR",
+          "optic_Aco",
+          "ItemMap",
+          "ItemCompass",
+          "ItemGps"
+        };
+
+  uniformClass = "U_B_CombatUniform_mcam";
+  backpack = "B_AssaultPack_dgtl";
+};
+
 //CQB
 class CQB_WST
 {
@@ -36,8 +96,9 @@ class CQB_WST
           "HandGrenade",
           "HandGrenade",
           "HandGrenade",
-          "DemoCharge_Remote_Mag",
-          "DemoCharge_Remote_Mag"
+          "HandGrenade",
+          "HandGrenade"
+
         };
      
         items[] = 
@@ -442,6 +503,66 @@ class Marksman_WST
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+//Sapper
+class SAPPER_EST
+{
+    displayName = "Sapper"; 
+  icon = "\A3\ui_f\data\igui\cfg\cursors\iconrepairat_ca.paa";    
+    
+        weapons[] = 
+        {
+          "arifle_Katiba_C_ACO_F",
+          "hgun_ACPC2_F",
+          "Binocular"
+        };
+
+  magazines[] = 
+        {
+          "smokeshell",
+          "smokeshell",
+          "smokeshell",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "30Rnd_65x39_caseless_green",
+          "9Rnd_45ACP_Mag",
+          "9Rnd_45ACP_Mag",
+          "9Rnd_45ACP_Mag",
+          "9Rnd_45ACP_Mag",
+          "HandGrenade",
+          "HandGrenade",
+          "HandGrenade",
+          "DemoCharge_Remote_Mag",
+          "DemoCharge_Remote_Mag"
+        };
+     
+        items[] = 
+        {
+          "FirstAidKit",
+          "FirstAidKit",
+          "Toolkit"
+  };
+
+        linkedItems[] = 
+        {
+          "V_PlateCarrierIAGL_dgtl",
+        "H_HelmetB",
+        "acc_pointer_IR",
+          "optic_Aco",
+        "ItemMap",
+          "ItemCompass",
+          "ItemGps"
+        };
+
+  uniformClass = "U_I_CombatUniform";
+  backpack = "B_AssaultPack_dgtl";
+};
+
 //CQB
 class CQB_EST
 {
@@ -476,8 +597,8 @@ class CQB_EST
           "HandGrenade",
           "HandGrenade",
           "HandGrenade",
-          "DemoCharge_Remote_Mag",
-          "DemoCharge_Remote_Mag"
+          "HandGrenade",
+          "HandGrenade"
         };
      
         items[] = 
