@@ -28,6 +28,8 @@ WaitUntil {Sleep 1;Local Player};
       _gear = [west, "aa_inf_WST"] call BIS_fnc_addRespawnInventory;
 	_gear = [west, "SpecOps_WST"] call BIS_fnc_addRespawnInventory;	
 	_gear = [west, "Marksman_WST"] call BIS_fnc_addRespawnInventory;
+      _gear = [west, "TeamLeader_WST"] call BIS_fnc_addRespawnInventory;
+      _gear = [west, "Officer_WST"] call BIS_fnc_addRespawnInventory;
       _gear = [east, "SAPPER_EST"] call BIS_fnc_addRespawnInventory;
       _gear = [east, "CQB_EST"] call BIS_fnc_addRespawnInventory;
       _gear = [east, "Grenadier_EST"] call BIS_fnc_addRespawnInventory;
@@ -37,6 +39,8 @@ WaitUntil {Sleep 1;Local Player};
       _gear = [east, "aa_inf_EST"] call BIS_fnc_addRespawnInventory;
 	_gear = [east, "SpecOps_EST"] call BIS_fnc_addRespawnInventory;	
 	_gear = [east, "Marksman_EST"] call BIS_fnc_addRespawnInventory;
+      _gear = [east, "TeamLeader_EST"] call BIS_fnc_addRespawnInventory;
+      _gear = [east, "Officer_EST"] call BIS_fnc_addRespawnInventory;
 	  
 // Remove fatigue effects
 	if (local player) then {  

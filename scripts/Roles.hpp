@@ -498,6 +498,113 @@ class Marksman_WST
 	uniformClass = "U_B_GhillieSuit";
 };
 
+//Officer
+class Officer_WST
+{
+    displayName = "Officer"; 
+  icon = "\A3\ui_f\data\igui\Cfg\CommandBar\imagecommander_ca.paa";    
+         weapons[] = 
+         {
+           "arifle_MX_GL_F",
+           "hgun_P07_F",
+           "Binocular"
+         };
+
+         magazines[] = 
+         {
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag"
+         };
+
+   items[] = 
+         {
+          "FirstAidKit",
+          "FirstAidKit"
+         };
+
+   linkedItems[] = 
+         {
+           "V_HarnessOGL_gry",
+         "H_HelmetB",
+           "optic_Arco",
+         "ItemMap",
+           "ItemCompass",
+           "ItemGps"
+         };
+
+   uniformClass = "U_O_OfficerUniform_ocamo";
+};
+
+//Squad Leader
+class TeamLeader_WST
+{
+    displayName = "Squad Leader"; 
+  icon = "\A3\ui_f\data\igui\Cfg\CommandBar\unitbehavior_ca.paa";    
+         weapons[] = 
+         {
+           "arifle_MX_GL_F",
+           "hgun_P07_F",
+           "Binocular"
+         };
+
+         magazines[] = 
+         {
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag"
+         };
+
+   items[] = 
+         {
+          "FirstAidKit",
+          "FirstAidKit"
+         };
+
+   linkedItems[] = 
+         {
+           "V_HarnessOGL_gry",
+         "H_HelmetB",
+           "optic_Arco",
+         "ItemMap",
+           "ItemCompass",
+           "ItemGps"
+         };
+
+   uniformClass = "U_O_OfficerUniform_ocamo";
+};
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// OPFOR KIT ROLES ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1002,6 +1109,111 @@ class Marksman_EST
 	uniformClass = "U_I_GhillieSuit";
 };
 
+//Officer
+class Officer_EST
+{
+    displayName = "Officer"; 
+  icon = "\A3\ui_f\data\igui\Cfg\CommandBar\imagecommander_ca.paa";    
+         weapons[] = 
+         {
+           "arifle_Katiba_GL_F",
+           "hgun_P07_F",
+           "Binocular"
+         };
+
+         magazines[] = 
+         {
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag"
+         };
+
+   items[] = 
+         {
+          "FirstAidKit",
+          "FirstAidKit"
+         };
+
+   linkedItems[] = 
+         {
+           "V_HarnessOGL_gry",
+         "H_HelmetB",
+           "optic_Arco",
+         "ItemMap",
+           "ItemCompass",
+           "ItemGps"
+         };
+
+   uniformClass = "U_I_OfficerUniform";
+};
+
+//Squad Leader
+class TeamLeader_EST
+{
+    displayName = "Squad Leader"; 
+  icon = "\A3\ui_f\data\igui\Cfg\CommandBar\unitbehavior_ca.paa";    
+         weapons[] = 
+         {
+           "arifle_Katiba_GL_F",
+           "hgun_P07_F",
+           "Binocular"
+         };
+
+         magazines[] = 
+         {
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "1Rnd_HE_Grenade_shell",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "30Rnd_65x39_caseless_mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag"
+         };
+
+   items[] = 
+         {
+          "FirstAidKit",
+          "FirstAidKit"
+         };
+
+   linkedItems[] = 
+         {
+           "V_HarnessOGL_gry",
+         "H_HelmetB",
+           "optic_Arco",
+         "ItemMap",
+           "ItemCompass",
+           "ItemGps"
+         };
+
+   uniformClass = "U_I_OfficerUniform";
+};
 
 
 // For future use
