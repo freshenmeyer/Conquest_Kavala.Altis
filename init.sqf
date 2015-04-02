@@ -11,7 +11,6 @@ enableSaving [false, false];
 [] execVM "scripts\briefing.sqf";
 
 // Revive system
-
 [] spawn SRS_fnc_init;
 
 // View distance config
