@@ -1,6 +1,9 @@
 if ((!isServer) && (player != player)) then {waitUntil {player == player};};
 enableSaving [false, false];
 
+ if (!isDedicated && hasInterface) then {
+[] execVM "client\init.sqf";
+};
 // Kill ticker
 [] execVM "scripts\killTicker.sqf";
 
@@ -42,8 +45,3 @@ WaitUntil {Sleep 1;Local Player};
       _gear = [east, "TeamLeader_EST"] call BIS_fnc_addRespawnInventory;
       _gear = [east, "Officer_EST"] call BIS_fnc_addRespawnInventory;
 	  
-// Remove fatigue effects
-	if (local player) then {  
-		player enableFatigue false;  
-		player addEventhandler ["Respawn", {player enableFatigue false}];  
-	};
