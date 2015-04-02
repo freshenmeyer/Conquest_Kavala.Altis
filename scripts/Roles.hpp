@@ -49,8 +49,8 @@ class SAPPER_WST
 
         linkedItems[] = 
         {
-          "V_PlateCarrierIAGL_dgtl",
-          "H_HelmetB",
+          "V_Chestrig_khk",
+          "H_Booniehat_mcamo",
           "acc_pointer_IR",
           "optic_Aco",
           "ItemMap",
@@ -98,7 +98,6 @@ class CQB_WST
           "HandGrenade",
           "HandGrenade",
           "HandGrenade"
-
         };
      
         items[] = 
@@ -110,10 +109,10 @@ class CQB_WST
         linkedItems[] = 
         {
           "V_PlateCarrierIAGL_dgtl",
-	      "H_HelmetB",
-	      "acc_pointer_IR",
+          "H_HelmetB",
+          "acc_pointer_IR",
           "optic_Aco",
-	      "ItemMap",
+          "ItemMap",
           "ItemCompass",
           "ItemGps"
         };
@@ -601,7 +600,7 @@ class TeamLeader_WST
            "ItemGps"
          };
 
-   uniformClass = "U_O_OfficerUniform_ocamo";
+   uniformClass = "U_B_CombatUniform_wdl";
 };
 
 
@@ -657,11 +656,11 @@ class SAPPER_EST
 
         linkedItems[] = 
         {
-          "V_PlateCarrierIAGL_dgtl",
-        "H_HelmetB",
-        "acc_pointer_IR",
+          "V_Chestrig_khk",
+          "H_Shemag_khk",
+          "acc_pointer_IR",
           "optic_Aco",
-        "ItemMap",
+          "ItemMap",
           "ItemCompass",
           "ItemGps"
         };
@@ -1212,7 +1211,7 @@ class TeamLeader_EST
            "ItemGps"
          };
 
-   uniformClass = "U_I_OfficerUniform";
+   uniformClass = "U_I_CombatUniform_shortsleeve";
 };
 
 
