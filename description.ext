@@ -3,7 +3,7 @@ respawndelay = "10";
 respawnTemplates[] = {"MenuInventory","MenuPosition"};
 disabledAI=1;
 author="Freshenmeyer";
-OnLoadName = "Conquest";
+OnLoadName = "Conquest Kavala";
 OnLoadMission = "Take control! - www.shizweak.es Mumble: shizweak.es";
 loadScreen = "images\loadScreen.paa";
 
